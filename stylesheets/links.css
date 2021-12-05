@@ -1,0 +1,37 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 30%;
+  height: 867px;
+}
+
+#link {
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  top: 10px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  text-align: center;
+  font-size: 30px;
+
+  width: 70%;
+  height: 40px;
+
+  background-color: rgb(190, 190, 190);
+  color: black;
+}
+
+.links img {
+  width: 30%;
+  border-radius: 500px;
+}
