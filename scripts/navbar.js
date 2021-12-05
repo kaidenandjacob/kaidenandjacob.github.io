@@ -13,6 +13,16 @@ toggle.addEventListener("click", () => {
     }
 });
 
+toggle.addEventListener("touch", () => {
+    var display = getComputedStyle(navbar).display
+    if (display == "none") {
+        navbar.style.display = "flex";
+    }else{
+        navbar.style.display = "none";
+    }
+});
+
+
 mediaQuery.addEventListener("change", (e) => {
     if (e.matches) {
         navbar.style.display = "flex";
